@@ -9,10 +9,13 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.37"
   },
   "scripts": {
     "start": "nodemon dist/app.js",
-    "watch":"tsc -w"
+    "watch": "tsc -w"
   }
 }
