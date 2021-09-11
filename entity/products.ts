@@ -3,19 +3,19 @@ import { Entity,Column, PrimaryGeneratedColumn, BaseEntity } from "typeorm";
 @Entity("products")
 export class products extends BaseEntity{
 
-    @PrimaryGeneratedColumn()
-    id!:number
+    @PrimaryGeneratedColumn('uuid')
+    id:number
    
     @Column()
-    name!:string
+    name:string
     
     @Column()
-    description!:string
+    description:string
    
-    @Column({type:'double'})
-    price!:number
+    @Column({type:'float'})
+    price:number
    
     @Column({type:'int'})
-    quantity!:number
+    quantity:number
 
 }

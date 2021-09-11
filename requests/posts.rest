@@ -1,0 +1,15 @@
+POST http://localhost:5000/posts/
+Content-Type: application/json
+
+{
+    "content":"primer post"
+}
+
+###
+GET http://localhost:5000/posts/
+Content-Type: application/json
+
+{
+    "content":"primer post"
+}
+
